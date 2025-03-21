@@ -30,4 +30,12 @@
     <string name="painting">Painting</string>
     <string name="photography">Photography</string>
     <string name="tech">Tech</string>
+
+
+    <string name ="floating_hot_air_balloon_in_the_sky"> Floating Hot Air  Balloon in the Sky</string>
+    <string name = "bubbly_balloon">Bubbly Balloon"></string>
+    <string name = "pastures_and_breeze">Pastures and Breeze</string>
+    <string name = "greeny_green">Greeny Green</string>
+    <string name = "land_of_infinite_sand">Land of infinite Sand</string>
+    <string name = "sandy_sand">Sandy Sand</string>
 </resources>

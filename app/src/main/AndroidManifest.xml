@@ -16,7 +16,8 @@
             android:name=".ArtSpaceActivity"
             android:exported="false"
             android:label="@string/title_activity_art_space"
-            android:theme="@style/Theme.PlayCompose" />
+            android:theme="@style/Theme.PlayCompose"
+            tools:ignore="MissingClass" />
         <activity
             android:name=".AffirmationsActivity"
             android:exported="false"

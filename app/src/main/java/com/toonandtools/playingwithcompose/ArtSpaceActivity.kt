@@ -44,9 +44,9 @@ class ArtSpaceActivity : ComponentActivity() {
 fun SpaceCreation( ) {
 
     val data = listOf(
-        Triple("Floating Balloon in the Sky","Bubbly Balloon", R.drawable.hot_air_balloon),
-        Triple("Pastures and Breeze","Greeny Green", R.drawable.mountain),
-        Triple("Land of infinite Sand","Sandy Sand", R.drawable.desert)
+        Triple(R.string.floating_hot_air_balloon_in_the_sky,R.string.bubbly_balloon, R.drawable.hot_air_balloon),
+        Triple(R.string.pastures_and_breeze,R.string.greeny_green,  R.drawable.mountain),
+        Triple(R.string.land_of_infinite_sand,R.string.sandy_sand, R.drawable.desert)
     )
 
     // Mutable state to track the current index
@@ -62,8 +62,8 @@ fun SpaceCreation( ) {
         Image(painter = painterResource(data[currentIndex].third),
             contentDescription = "${data[currentIndex].first} + Image" ,
             modifier = Modifier.padding(50.dp))
-        Text(text = data[currentIndex].first)
-        Text(text = data[currentIndex].second)
+        Text(text = data[currentIndex].first.toString())
+        Text(text = data[currentIndex].second.toString())
 
         Row(
             horizontalArrangement = Arrangement.SpaceBetween,
