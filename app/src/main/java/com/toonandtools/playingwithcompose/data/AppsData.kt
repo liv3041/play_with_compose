@@ -13,6 +13,6 @@ data class AppsData(
 )
     val appItems = listOf(
      AppsData(R.string.title_activity_art_space,R.drawable.art),
-//     AppsData(R.string.affirmations,R.drawable.affirmations)
+     AppsData(R.string.title_activity_affirmations,R.drawable.affirmations)
     )
 

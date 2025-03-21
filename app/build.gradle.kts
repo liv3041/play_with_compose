@@ -6,7 +6,7 @@ plugins {
 
 android {
     namespace = "com.toonandtools.playingwithcompose"
-    compileSdk = 34
+    compileSdk = 35
 
     defaultConfig {
         applicationId = "com.toonandtools.playingwithcompose"
