@@ -1,3 +1,4 @@
 <resources>
     <string name="app_name">Play Compose</string>
+    <string name="title_activity_art_space">ArtSpaceActivity</string>
 </resources>
